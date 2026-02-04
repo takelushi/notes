@@ -1,0 +1,34 @@
+{
+  "filters": {
+    "comments": true
+  },
+  "rules": {
+    "preset-ja-technical-writing": {
+      "sentence-length": {
+        "max": 120
+      },
+      "ja-no-mixed-period": {
+        "allowPeriodMarks": [
+          "："
+        ]
+      },
+      "no-mix-dearu-desumasu": {
+        "preferInHeader": "",
+        "preferInBody": "ですます",
+        "preferInList": "ですます",
+        "strict": false
+      }
+    },
+    "preset-jtf-style": {
+      "1.1.3.箇条書き": false,
+      "3.1.1.全角文字と半角文字の間": false,
+      "4.3.1.丸かっこ（）": true
+    },
+    "preset-ja-spacing": {
+      "ja-space-between-half-and-full-width": {
+        "space": "always"
+      }
+    },
+    "spellcheck-tech-word": true
+  }
+}

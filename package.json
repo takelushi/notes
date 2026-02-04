@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "個人的なナレッジベースリポジトリです。学習メモ、技術ノート、参考資料などを整理して保存しています。",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takelushi/notes.git"
+  },
+  "scripts": {
+    "lint": "textlint",
+    "lint:fix": "textlint --fix"
+  },
+  "dependencies": {
+    "@secretlint/secretlint-rule-preset-recommend": "^11.3.0",
+    "secretlint": "^11.3.0",
+    "textlint": "^15.5.1",
+    "textlint-filter-rule-comments": "^1.3.0",
+    "textlint-rule-preset-ja-spacing": "^2.4.3",
+    "textlint-rule-preset-ja-technical-writing": "^12.0.2",
+    "textlint-rule-preset-jtf-style": "^3.0.3",
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
+  }
+}
