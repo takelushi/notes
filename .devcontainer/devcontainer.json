@@ -6,7 +6,14 @@
   "image": "mcr.microsoft.com/devcontainers/base:noble",
   "customizations": {
     "vscode": {
-      "extensions": ["foam.foam-vscode"]
+      "extensions": [
+        "foam.foam-vscode",
+        "yzhang.markdown-all-in-one",
+        "esbenp.prettier-vscode",
+        "Hyzeta.vscode-theme-github-light",
+        "vscode-icons-team.vscode-icons",
+        "antfu.icons-carbon"
+      ]
     }
   }
 

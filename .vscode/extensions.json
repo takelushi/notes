@@ -1,3 +1,10 @@
 {
-  "recommendations": ["foam.foam-vscode"]
+  "recommendations": [
+    "foam.foam-vscode",
+    "yzhang.markdown-all-in-one",
+    "esbenp.prettier-vscode",
+    "hyzeta.vscode-theme-github-light",
+    "vscode-icons-team.vscode-icons",
+    "antfu.icons-carbon"
+  ]
 }
