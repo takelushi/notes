@@ -1,5 +1,37 @@
 {
   "workbench.colorTheme": "Github Light Theme",
   "workbench.iconTheme": "vscode-icons",
-  "workbench.productIconTheme": "icons-carbon"
+  "workbench.productIconTheme": "icons-carbon",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "markup.inline.raw.string.markdown",
+        "settings": {
+          "foreground": "#e85c66"
+        }
+      },
+      {
+        "scope": "string.other.link.title.markdown",
+        "settings": {
+          "foreground": "#0969da"
+        }
+      },
+      {
+        "scope": "markup.underline.link.markdown",
+        "settings": {
+          "foreground": "#4493f8"
+        }
+      },
+      {
+        "scope": [
+          "punctuation.definition.string.begin.markdown",
+          "punctuation.definition.string.end.markdown",
+          "punctuation.definition.metadata.markdown"
+        ],
+        "settings": {
+          "foreground": "#aaaaaa"
+        }
+      }
+    ]
+  }
 }
