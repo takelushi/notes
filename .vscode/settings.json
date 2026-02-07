@@ -35,7 +35,17 @@
     ]
   },
   "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#dd00aa66"
+    "editorCursor.foreground": "#dd00aa66",
+    "terminal.background": "#403a39",
+    "terminal.foreground": "#dddddd",
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiRed": "#cd3131",
+    "terminal.ansiGreen": "#0dbc79",
+    "terminal.ansiYellow": "#e5e510",
+    "terminal.ansiBlue": "#2472c8",
+    "terminal.ansiMagenta": "#bc3fbc",
+    "terminal.ansiCyan": "#11a8cd",
+    "terminal.ansiWhite": "#f0f0f0"
   },
   "markdown.styles": [".vscode/custom-tag-style.css"],
   "editor.cursorStyle": "block",
@@ -43,5 +53,6 @@
   "editor.cursorBlinking": "smooth",
   "backgroundPhiColors.baseColor": "#88aa33",
   "backgroundPhiColors.tokenActiveAlpha": 30,
-  "backgroundPhiColors.spacesActiveAlpha": 32
+  "backgroundPhiColors.spacesActiveAlpha": 32,
+  "terminal.integrated.defaultLocation": "editor"
 }
