@@ -1,7 +1,13 @@
 {
+  // ------------------------------------------------------
+  // Visuals
+  // ------------------------------------------------------
+  // Theme
   "workbench.colorTheme": "Github Light Theme",
   "workbench.iconTheme": "vscode-icons",
   "workbench.productIconTheme": "icons-carbon",
+  // Color customizations
+  "markdown.styles": [".vscode/custom-tag-style.css"],
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -36,21 +42,34 @@
   },
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#dd00aa66",
+    // Terminal colors
     "terminal.background": "#403a39",
     "terminal.foreground": "#dddddd",
     "terminal.ansiBlack": "#000000",
-    "terminal.ansiRed": "#cd3131",
+    "terminal.ansiRed": "#ff4444",
     "terminal.ansiGreen": "#0dbc79",
-    "terminal.ansiYellow": "#e5e510",
-    "terminal.ansiBlue": "#2472c8",
-    "terminal.ansiMagenta": "#bc3fbc",
-    "terminal.ansiCyan": "#11a8cd",
-    "terminal.ansiWhite": "#f0f0f0"
+    "terminal.ansiYellow": "#f0f030",
+    "terminal.ansiBlue": "#4a9eff",
+    "terminal.ansiMagenta": "#d860d8",
+    "terminal.ansiCyan": "#1dd9e8",
+    "terminal.ansiWhite": "#e0e0e0",
+    "terminal.ansiBrightBlack": "#666666",
+    "terminal.ansiBrightRed": "#ff6b6b",
+    "terminal.ansiBrightGreen": "#4dffaa",
+    "terminal.ansiBrightYellow": "#ffff66",
+    "terminal.ansiBrightBlue": "#66b3ff",
+    "terminal.ansiBrightMagenta": "#ff66ff",
+    "terminal.ansiBrightCyan": "#66ffff",
+    "terminal.ansiBrightWhite": "#ffffff"
   },
-  "markdown.styles": [".vscode/custom-tag-style.css"],
+  // Cursor style
   "editor.cursorStyle": "block",
   "editor.cursorSmoothCaretAnimation": "explicit",
   "editor.cursorBlinking": "smooth",
+  // ------------------------------------------------------
+  // Extensions
+  // ------------------------------------------------------
+  // Background Phi Colors
   "backgroundPhiColors.baseColor": "#88aa33",
   "backgroundPhiColors.tokenActiveAlpha": 30,
   "backgroundPhiColors.spacesActiveAlpha": 32,
