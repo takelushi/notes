@@ -33,5 +33,6 @@
         }
       }
     ]
-  }
+  },
+  "markdown.styles": [".vscode/custom-tag-style.css"]
 }
