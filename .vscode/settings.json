@@ -34,5 +34,14 @@
       }
     ]
   },
-  "markdown.styles": [".vscode/custom-tag-style.css"]
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#dd00aa66"
+  },
+  "markdown.styles": [".vscode/custom-tag-style.css"],
+  "editor.cursorStyle": "block",
+  "editor.cursorSmoothCaretAnimation": "explicit",
+  "editor.cursorBlinking": "smooth",
+  "backgroundPhiColors.baseColor": "#88aa33",
+  "backgroundPhiColors.tokenActiveAlpha": 30,
+  "backgroundPhiColors.spacesActiveAlpha": 32
 }
