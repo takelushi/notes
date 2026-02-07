@@ -12,6 +12,14 @@
 - [Foam](https://foambubble.github.io/foam/)
   - タグとリンクでノートを管理しています。
 
+## セットアップ
+
+```sh
+bash setup.sh
+```
+
+Dev Container を使用する場合は、コンテナ作成時に自動で実行されます。
+
 ## ノートの書き方
 
 VS Code のコマンドパレットを使って作成します。
